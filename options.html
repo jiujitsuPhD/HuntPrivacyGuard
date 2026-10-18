@@ -1,0 +1,39 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hunt's Privacy Guard Settings</title>
+  <style>
+    body {
+      max-width: 650px;
+      margin: 40px auto;
+      font: 16px/1.5 system-ui;
+    }
+
+    textarea {
+      width: 100%;
+      height: 180px;
+      box-sizing: border-box;
+      padding: 10px;
+    }
+
+    button {
+      padding: 10px 16px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hunt's Privacy Guard Settings</h1>
+  <p>Enter one protected term per line.</p>
+
+  <textarea id="terms"></textarea>
+  <br>
+  <button id="save">Save protected terms</button>
+
+  <p id="status" role="status"></p>
+
+  <script src="options.js"></script>
+</body>
+</html>

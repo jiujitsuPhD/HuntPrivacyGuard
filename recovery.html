@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hunt's Privacy Guard PIN Recovery</title>
+  <link rel="stylesheet" href="recovery.css">
+</head>
+<body>
+  <main class="card">
+    <div class="brand">
+      <img src="icons/icon48.png" alt="" width="36" height="36">
+      <div>
+        <h1>Hunt's Privacy Guard PIN Recovery</h1>
+        <p>Download a text file containing the current PIN.</p>
+      </div>
+    </div>
+    <button id="download-pin" type="button">Download PIN file</button>
+    <p class="note">The file will appear in Chrome Downloads. Anyone who can open it can read the PIN.</p>
+    <p id="status" role="status" aria-live="polite"></p>
+  </main>
+  <script src="recovery.js"></script>
+</body>
+</html>
