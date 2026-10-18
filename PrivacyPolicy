@@ -1,0 +1,24 @@
+1. Privacy Policy — Hunt’s Privacy Guard
+Last updated: October 18, 2026
+Hunt’s Privacy Guard helps users block submissions containing terms on their protected list. This policy explains what the extension checks, what it stores, and whether it shares information.
+Information the extension handles
+When protection is turned on, the extension checks text in supported website text fields when the user attempts to submit it. It compares that text with the protected terms saved in the extension. If a term matches, the extension blocks the submission.
+The extension stores the protected terms, protection setting, PIN-related data, and new-tab page preference in Chrome’s extension storage on the user’s device. It keeps a blocked-submission count for the current browser session. If the user uses the PIN recovery feature, the extension can save a recovery text file through Chrome Downloads.
+Sharing and collection
+Hunt’s Privacy Guard does not send the checked text, protected terms, PIN-related data, or blocked-submission count to the developer or to a server. The extension does not sell or share this information with third parties.
+User control and limitations
+Users can edit their protected list, turn protection on or off, and remove the extension through Chrome’s extension settings. The extension only checks supported text fields on pages where Chrome allows extensions to run. It cannot guarantee that every kind of personal information will be detected or blocked.
+Contact
+For questions about this policy, contact: [add your support email or contact link]
+2. Chrome Web Store privacy disclosures and permission justifications
+Single purpose
+Hunt’s Privacy Guard helps users protect personal information by checking text submitted through supported website fields against a user-managed list of protected terms and blocking matching submissions.
+Permission justifications
+Host permissions: All websites (<all_urls>)
+The extension needs access to pages across websites so it can detect supported text fields and check their contents when a user attempts to submit a message or form. This check happens locally in the browser. The extension does not transmit the page text to the developer or a server. Chrome-internal pages and other restricted pages may not allow the extension to run.
+Storage
+The extension uses Chrome storage to keep the user’s protected terms and settings on the device. Session storage is used for the current session’s blocked-submission count.
+Downloads
+The extension uses Chrome Downloads to save a PIN recovery text file when the user requests recovery.
+User data disclosure
+The extension handles text entered into supported website fields to compare it with the user’s protected list before submission. Matching text is blocked. The extension stores the protected list and settings locally in Chrome extension storage. It does not transmit, sell, or share checked text or stored extension data with the developer or third parties.
