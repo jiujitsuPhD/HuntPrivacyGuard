@@ -1,9 +1,0 @@
-body {
-  display: grid;
-  min-height: 100vh;
-  place-items: center;
-  margin: 0;
-  color: #69758a;
-  background: #f4f7fb;
-  font: 14px/1.5 "Segoe UI", system-ui, sans-serif;
-}
